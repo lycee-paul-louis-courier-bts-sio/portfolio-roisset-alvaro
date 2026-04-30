@@ -1,0 +1,30 @@
+
+/* --- Footer --- */
+footer {
+    font-size: 0.9rem;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* --- Liens du footer --- */
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1;
+}

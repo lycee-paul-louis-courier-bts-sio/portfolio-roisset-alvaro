@@ -1,0 +1,56 @@
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+}
+
+.profile-timeline {
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 0;
+  max-width: 800px;
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(90deg, #343a40, #495057);
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-item .content {
+  background: linear-gradient(90deg, #343a40, #495057);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item .content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-item .icon {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  background: linear-gradient(90deg, #343a40, #495057);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
