@@ -1,20 +1,20 @@
-<div class="col">
-    <h1>Présentation de la formation</h1>
-    <h3> Le BTS SIO <br> _____ </h3>
-    <div class="row">
-        <div class="col-6">
+<div class="container my-5">
+    <h1 class="text-center">Présentation de la formation</h1>
+    <h3 class="text-center">Le BTS SIO <br> _____</h3>
+    <div class="row g-4 align-items-center">
+        <div class="col-md-6">
             <p>Le BTS SIO (Services Informatiques aux Organisations) est un diplôme de niveau Bac+2 qui forme des techniciens spécialisés dans l'informatique pour répondre aux besoins des entreprises.
                 Ce cursus prépare les étudiants à devenir des experts en gestion de parcs informatiques, en développement d'applications, et en administration des réseaux.
                 Il se décline en deux spécialités : <span class="important"> SLAM </span> (Solutions Logicielles et Applications Métier) et <span class="important"> SISR </span> (Solutions d'Infrastructure, Systèmes et Réseaux).
             </p>
         </div>
-        <div class="col-6">
-            <img src="./assets/img/btssio.png" class="card-img-top" alt="logo btssio">
+        <div class="col-md-6">
+            <img src="./assets/images/BTS_LOGO_NOWHITE.png" class="img-fluid" alt="logo btssio">
         </div>
     </div>
     <h3> Les Options <br> _____ </h3>
-    <div class="row">
-        <div class="col-6">
+    <div class="row g-4">
+        <div class="col-md-6">
             <h4> SLAM (Mon option) </h4>
             <p>La spécialité SLAM est orientée vers le développement de logiciels et d’applications. Elle forme les étudiants à concevoir, développer, et maintenir des solutions logicielles adaptées aux besoins des entreprises.</p>
             <div class="list-container">
@@ -56,7 +56,7 @@
             </ul>
         </div>
 
-        <div class="col-6">
+        <div class="col-md-6">
             <h4> SISR </h4>
             <p>La spécialité SISR est axée sur l'administration des systèmes et des réseaux. Elle forme les étudiants à gérer et sécuriser les infrastructures informatiques des organisations, assurant ainsi la continuité et la performance des services numériques essentiels.
             </p>
@@ -105,6 +105,13 @@
 
 
 <style>
+    body {
+        background: linear-gradient(90deg, #66b3ff, #b3a1ff); /* Dégradé bleu clair -> violet clair */
+        color: white; /* Texte bien visible */
+        min-height: 100vh; /* Pour s'assurer que ça couvre toute la page */
+        margin: 0;
+    }
+
     .custom-bg {
         background-color: #191919;
         /* Fond gris très sombre */
@@ -116,7 +123,7 @@
     }
 
     h1 {
-        color: white;
+        color: black;
         font-weight: bold;
         margin-top: 50px;
         text-align: center;

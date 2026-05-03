@@ -1,1 +1,0 @@
-<p>Gestion Patrimoine</p>

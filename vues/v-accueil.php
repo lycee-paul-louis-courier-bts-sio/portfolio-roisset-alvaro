@@ -1,19 +1,41 @@
 <link rel="stylesheet" href="./assets/css/accueil.css">
-<div class="content">
-    <div class="txt-little">Bonjour,</div>
-    <div class="static-txt">Je m'appelle <span class="txt">Trystan Le Marec</span> </div> 
-    <div class="wrapper">
-        <div class="static-txt">Je suis</div>
-        <ul class="dynamic-txts">
-            <li><span>Étudiant</span></li>     
-            <li><span>En BTS SIO</span></li>   
-            <li><span>option</span></li>   
-            <li><span>SLAM</span></li>       
-        </ul>
-    </div>
-</div>
+<main>
+  <div class="welcome-section">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <h2 class="dynamic-text">
+          <span id="dynamic"></span>
+      </h2>
+      <p>Découvrez mes projets, mes compétences et mes expériences en BTS SIO SLAM.</p>
+      <a href="index.php?uc=public" class="btn btn-primary mt-3">
+          Voir mes projets
+      </a>
+  </div>
+</main>
 
 
+<style>
+  h1, .titre-expedition {
+      font-family: 'Cinzel', serif;
+  }
 
+</style>
 
+<script>
+    const phrases = [
+        "Futur diplômé 🚀",
+        "Passionné par le code 💻",
+        "Toujours prêt à relever des défis 🔧",
+        "Bienvenue chez Alvaro ROISSET 👑"
+    ];
 
+    let index = 0;
+    let dynamic = document.getElementById('dynamic');
+
+    function changeText() {
+        dynamic.textContent = phrases[index];
+        index = (index + 1) % phrases.length;
+    }
+
+    changeText();
+    setInterval(changeText, 2500);
+</script>

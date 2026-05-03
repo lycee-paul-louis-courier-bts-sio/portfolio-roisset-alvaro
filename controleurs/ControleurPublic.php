@@ -1,8 +1,4 @@
 <?php
-
-// ControleurPublic.php
-// Ce contrôleur gère les pages accessibles au public : accueil, projets, etc.
-
 if (!isset($_REQUEST['action'])) {
     $_REQUEST['action'] = 'voirAccueil';
 }
@@ -25,7 +21,6 @@ switch ($action) {
         include 'vues/vues_portfolio/v-profil.php';
         break;
     default:
-        // Si l'action n'existe pas, on redirige vers l'accueil
         include 'vues/vues_portfolio/v-accueil.php';
         break;
 }
