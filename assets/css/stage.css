@@ -1,0 +1,258 @@
+/* ============================================================
+   stage.css — Vue Projets & Stages
+   Thème : cohérent avec accueil (fond sombre + or/noir)
+   ============================================================ */
+
+/* --- Fond de page --- */
+.stage-page {
+    background-image: url('../images/backgroundold.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000;
+    min-height: 100vh;
+}
+
+/* Overlay sombre sur le fond pour lisibilité */
+.stage-page::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.stage-page > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* --- Hero header --- */
+.stage-hero {
+    background: linear-gradient(90deg, black, darkgoldenrod, black);
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(184,134,11,0.4);
+}
+
+.stage-hero-title {
+    font-family: 'Cinzel', serif;
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 0 0 10px;
+}
+
+.stage-hero-sub {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+/* --- Séparateur de section --- */
+.section-block {
+    margin-bottom: 20px;
+}
+
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.label-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, darkgoldenrod, transparent);
+}
+
+.label-text {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    color: darkgoldenrod;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+.section-divider {
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(184,134,11,0.5), transparent);
+    margin: 50px 0;
+}
+
+/* --- Cards stages & projets --- */
+.projet-card {
+    background: rgba(10, 10, 10, 0.85);
+    border: 1px solid rgba(184,134,11,0.25);
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(4px);
+}
+
+.projet-card:hover {
+    transform: translateY(-6px);
+    border-color: darkgoldenrod;
+    box-shadow: 0 12px 35px rgba(184,134,11,0.2);
+}
+
+/* Header de la card */
+.projet-card-header {
+    position: relative;
+    background: linear-gradient(135deg, #111, #1a1a1a);
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 130px;
+    border-bottom: 1px solid rgba(184,134,11,0.15);
+}
+
+.atelier-header {
+    background: linear-gradient(135deg, #0a0a1a, #111);
+}
+
+.projet-card-logo img {
+    max-height: 80px;
+    max-width: 160px;
+    object-fit: contain;
+    transition: filter 0.3s;
+}
+
+.projet-card:hover .projet-card-logo img {
+    filter: drop-shadow(0 0 8px rgba(184,134,11,0.6));
+}
+
+/* Badge année */
+.badge-annee {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: darkgoldenrod;
+    color: #000;
+    font-size: 0.72rem;
+    font-weight: 700;
+    font-family: 'Cinzel', serif;
+    padding: 3px 10px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Badge numéro projet */
+.badge-numero {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(255,255,255,0.08);
+    color: darkgoldenrod;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Cinzel', serif;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(184,134,11,0.3);
+}
+
+.atelier-icon {
+    font-size: 2.8rem;
+    color: darkgoldenrod;
+}
+
+/* Body */
+.projet-card-body {
+    padding: 20px 22px;
+    flex: 1;
+}
+
+.projet-card-title {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.projet-card-desc {
+    color: rgba(255,255,255,0.65);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+/* Tags technos */
+.projet-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag {
+    background: rgba(184,134,11,0.12);
+    border: 1px solid rgba(184,134,11,0.35);
+    color: darkgoldenrod;
+    font-size: 0.75rem;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.tag.tag-blue {
+    background: rgba(66,135,245,0.1);
+    border-color: rgba(66,135,245,0.35);
+    color: #74aaff;
+}
+
+/* Footer */
+.projet-card-footer {
+    padding: 14px 22px 20px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.btn-gold-outline {
+    display: inline-block;
+    color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    background: transparent;
+    padding: 7px 18px;
+    border-radius: 6px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.25s, color 0.25s;
+}
+
+.btn-gold-outline:hover {
+    background: darkgoldenrod;
+    color: #000;
+}
+
+/* Bouton comparatif */
+.comparatif-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(184,134,11,0.08);
+    border: 1px dashed rgba(184,134,11,0.5);
+    color: darkgoldenrod;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.25s, border-color 0.25s;
+    width: 100%;
+}
+
+.comparatif-btn:hover {
+    background: rgba(184,134,11,0.18);
+    border-color: darkgoldenrod;
+    color: #fff;
+}

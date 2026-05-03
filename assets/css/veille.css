@@ -1,0 +1,368 @@
+/* ============================================================
+   veille.css — Vue Ma Veille Technologique
+   Thème : sombre, tech, cohérent avec l'accueil
+   ============================================================ */
+
+/* --- Fond de page --- */
+.veille-page {
+    background: linear-gradient(160deg, #050510 0%, #0a0a1a 40%, #000 100%);
+    min-height: 100vh;
+}
+
+/* --- Hero --- */
+.veille-hero {
+    background: linear-gradient(90deg, black, darkgoldenrod, black);
+    padding: 55px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(184,134,11,0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.veille-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(184,134,11,0.1) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.veille-hero-badge {
+    display: inline-block;
+    background: rgba(184,134,11,0.15);
+    border: 1px solid rgba(184,134,11,0.4);
+    color: darkgoldenrod;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 5px 16px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+}
+
+.veille-hero-title {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.veille-hero-sub {
+    color: rgba(255,255,255,0.65);
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* --- Sections --- */
+.veille-section {
+    margin-bottom: 60px;
+}
+
+/* --- Séparateur label --- */
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.label-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, darkgoldenrod, transparent);
+}
+
+.label-text {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    color: darkgoldenrod;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+/* --- Info cards (méthode de veille) --- */
+.veille-info-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(184,134,11,0.2);
+    border-radius: 10px;
+    padding: 14px 18px;
+}
+
+.veille-info-icon {
+    font-size: 1.5rem;
+    color: darkgoldenrod;
+    flex-shrink: 0;
+}
+
+.veille-info-label {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.45);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.veille-info-value {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* --- Niveaux SAE --- */
+.sae-card {
+    border-radius: 10px;
+    padding: 16px 10px;
+    text-align: center;
+    height: 100%;
+    transition: transform 0.25s;
+}
+
+.sae-card:hover { transform: translateY(-4px); }
+
+.sae-number {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.sae-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.sae-driver {
+    font-size: 0.72rem;
+    opacity: 0.75;
+}
+
+.sae-0 { background: rgba(100,100,100,0.15); border: 1px solid rgba(150,150,150,0.3); color: #aaa; }
+.sae-0 .sae-number { color: #aaa; }
+.sae-1 { background: rgba(66,133,244,0.1); border: 1px solid rgba(66,133,244,0.3); color: #74aaff; }
+.sae-1 .sae-number { color: #74aaff; }
+.sae-2 { background: rgba(251,188,5,0.1); border: 1px solid rgba(251,188,5,0.35); color: #ffc107; }
+.sae-2 .sae-number { color: #ffc107; }
+.sae-3 { background: rgba(255,130,45,0.1); border: 1px solid rgba(255,130,45,0.35); color: #FF842D; }
+.sae-3 .sae-number { color: #FF842D; }
+.sae-4 { background: rgba(52,168,83,0.12); border: 1px solid rgba(52,168,83,0.4); color: #34a853; }
+.sae-4 .sae-number { color: #34a853; }
+.sae-5 { background: rgba(184,134,11,0.12); border: 1px solid rgba(184,134,11,0.4); color: darkgoldenrod; }
+.sae-5 .sae-number { color: darkgoldenrod; }
+
+/* --- Cards acteurs --- */
+.acteur-card {
+    background: rgba(10,10,20,0.85);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    overflow: hidden;
+    height: 100%;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.acteur-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(184,134,11,0.5);
+}
+
+.acteur-header {
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.tesla-header { background: linear-gradient(135deg, #1a0000, #2d0000); }
+.waymo-header { background: linear-gradient(135deg, #00001a, #00002d); }
+.autres-header { background: linear-gradient(135deg, #111100, #1a1a00); }
+
+.acteur-logo-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.acteur-logo-placeholder img {
+    max-height: 55px;
+    max-width: 150px;
+    object-fit: contain;
+}
+
+.acteur-niveau {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.niveau-2 { background: rgba(255,193,7,0.2); color: #ffc107; border: 1px solid rgba(255,193,7,0.4); }
+.niveau-4 { background: rgba(52,168,83,0.2); color: #34a853; border: 1px solid rgba(52,168,83,0.4); }
+
+.acteur-body {
+    padding: 20px;
+}
+
+.acteur-title {
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.acteur-desc {
+    color: rgba(255,255,255,0.65);
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.acteur-stats {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 8px 12px;
+    flex: 1;
+    min-width: 70px;
+}
+
+.stat-val {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: darkgoldenrod;
+}
+
+.stat-label {
+    font-size: 0.68rem;
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+}
+
+.acteur-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.acteur-list li {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.88rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* --- Tableau comparatif --- */
+.veille-table, .veille-table th, .veille-table td {
+    color: #fff !important;
+    background: transparent !important;
+    border-color: rgba(255,255,255,0.12) !important;
+}
+
+.veille-table thead th {
+    background: rgba(184,134,11,0.1) !important;
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.veille-table tbody tr:hover td {
+    background: rgba(255,255,255,0.03) !important;
+}
+
+/* --- KPI Cards --- */
+.kpi-card {
+    background: linear-gradient(135deg, rgba(184,134,11,0.1), rgba(0,0,0,0.4));
+    border: 1px solid rgba(184,134,11,0.3);
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+    border-color: darkgoldenrod;
+}
+
+.kpi-value {
+    font-family: 'Cinzel', serif;
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: darkgoldenrod;
+    margin-bottom: 8px;
+}
+
+.kpi-label {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.4;
+}
+
+/* --- Enjeux --- */
+.enjeu-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 24px;
+    height: 100%;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.enjeu-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(184,134,11,0.4);
+}
+
+.enjeu-icon {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.enjeu-card h5 {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.enjeu-card p {
+    color: rgba(255,255,255,0.65);
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* --- Conclusion --- */
+.veille-conclusion {
+    background: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(184,134,11,0.07), rgba(0,0,0,0.5));
+    border: 1px solid rgba(184,134,11,0.25);
+    border-radius: 12px;
+    padding: 30px 36px;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.8;
+}
+
+.veille-conclusion strong {
+    color: darkgoldenrod;
+}

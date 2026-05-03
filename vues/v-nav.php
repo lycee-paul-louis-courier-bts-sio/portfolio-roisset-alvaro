@@ -8,7 +8,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="col-md-1">
-            <a <a class="navbar-brand text-white fw-bold" href="index.php">
+            <a class="navbar-brand text-white fw-bold" href="index.php">
                     <img src="./assets/images/BTSSIOBLACK.png" alt="Logo BTS SIO" class="navbar-logo"  id="navbarLogo">
                 </a>
         </div>
@@ -25,12 +25,12 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?uc=">
-                        <i class="bi bi-mortarboard-fill"></i> Formation
+                    <a class="nav-link" href="index.php?uc=public&action=voirVeille">
+                        <i class="bi bi-mortarboard-fill"></i> Veile
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?uc=public&action=voirProjets">
+                    <a class="nav-link" href="index.php?uc=public&action=voirStage">
                         <i class="bi bi-briefcase-fill"></i> Projets / Stage
                     </a>
                 </li>

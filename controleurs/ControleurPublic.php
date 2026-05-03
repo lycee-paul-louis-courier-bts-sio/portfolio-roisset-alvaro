@@ -20,6 +20,12 @@ switch ($action) {
     case 'voirProfil':
         include 'vues/v-profil.php';
         break;
+    case 'voirVeille':
+        include 'vues/v-veille.php';
+        break;
+    case 'voirStage':
+        include 'vues/v-stage.php';
+        break;
     default:
         include 'vues/v-accueil.php';
         break;
