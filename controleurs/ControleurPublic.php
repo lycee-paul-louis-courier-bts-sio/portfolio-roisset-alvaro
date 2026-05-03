@@ -7,21 +7,21 @@ $action = htmlspecialchars($_REQUEST['action']);
 
 switch ($action) {
     case 'voirAccueil':
-        include 'vues/vues_portfolio/v-accueil.php';
+        include 'vues/v-accueil.php';
         break;
 
     case 'voirProjets':
-        include 'vues/vues_portfolio/v-btssio.php';
+        include 'vues/v-btssio.php';
         break;
 
     case 'voirContact':
-        include 'vues/vues_portfolio/v-contact.php';
+        include 'vues/v-contact.php';
         break;
     case 'voirProfil':
-        include 'vues/vues_portfolio/v-profil.php';
+        include 'vues/v-profil.php';
         break;
     default:
-        include 'vues/vues_portfolio/v-accueil.php';
+        include 'vues/v-accueil.php';
         break;
 }
 ?>
