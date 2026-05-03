@@ -28,7 +28,7 @@
             <div class="projet-card-header">
               <span class="badge-annee">1ère année</span>
               <div class="projet-card-logo">
-                <img src="./assets/img/logotechnibox.png" alt="Logo Technibox">
+                <img src="./assets/images/logotechnibox.png" alt="Logo Technibox">
                 <i class="bi bi-cpu-fill" style="font-size:3rem; color:darkgoldenrod;"></i>
               </div>
             </div>
@@ -55,7 +55,7 @@
             <div class="projet-card-header">
               <span class="badge-annee">2ème année</span>
               <div class="projet-card-logo">
-                <!-- Remplace par : <img src="./assets/img/logoCHUStAmand.png" alt="Logo CHU"> -->
+                <img src="./assets/images/logoCHUStAmand.png" alt="Logo CHU">
                 <i class="bi bi-shield-check" style="font-size:3rem; color:darkgoldenrod;"></i>
               </div>
             </div>
@@ -110,18 +110,14 @@
             <div class="projet-card-header atelier-header">
               <span class="badge-numero">#01</span>
               <div class="atelier-icon">
-                <!-- Remplace par ton image : <img src="./assets/img/projet1.png" alt="Projet 1"> -->
+                <!-- Remplace par ton image : <img src="./assets/images/projet1.png" alt="Projet 1"> -->
                 <i class="bi bi-laptop-fill"></i>
               </div>
             </div>
             <div class="projet-card-body">
-              <h4 class="projet-card-title">Nom du projet 1</h4>
-              <p class="projet-card-desc">Description courte de ton projet atelier. Remplace ce texte par ce que tu as réalisé.</p>
-              <div class="projet-tags">
-                <span class="tag tag-blue">PHP</span>
-                <span class="tag tag-blue">MySQL</span>
-                <span class="tag tag-blue">Bootstrap</span>
-              </div>
+              <h4 class="projet-card-title">StartDev</h4>
+              <p class="projet-card-desc">Projet de première année</p>
+              
             </div>
             <div class="projet-card-footer">
               <a href="#" class="btn-gold-outline">
@@ -142,13 +138,9 @@
               </div>
             </div>
             <div class="projet-card-body">
-              <h4 class="projet-card-title">Nom du projet 2</h4>
-              <p class="projet-card-desc">Description courte de ton projet atelier. Remplace ce texte par ce que tu as réalisé.</p>
-              <div class="projet-tags">
-                <span class="tag tag-blue">C#</span>
-                <span class="tag tag-blue">WinForms</span>
-                <span class="tag tag-blue">SQL Server</span>
-              </div>
+              <h4 class="projet-card-title">Mille nuits</h4>
+              <p class="projet-card-desc">Projet de première année</p>
+             
             </div>
             <div class="projet-card-footer">
               <a href="#" class="btn-gold-outline">
@@ -169,13 +161,9 @@
               </div>
             </div>
             <div class="projet-card-body">
-              <h4 class="projet-card-title">Nom du projet 3</h4>
-              <p class="projet-card-desc">Description courte de ton projet atelier. Remplace ce texte par ce que tu as réalisé.</p>
-              <div class="projet-tags">
-                <span class="tag tag-blue">HTML</span>
-                <span class="tag tag-blue">CSS</span>
-                <span class="tag tag-blue">JavaScript</span>
-              </div>
+              <h4 class="projet-card-title">Epoka</h4>
+              <p class="projet-card-desc">Projet de deuxième année</p>
+              
             </div>
             <div class="projet-card-footer">
               <a href="#" class="btn-gold-outline">
