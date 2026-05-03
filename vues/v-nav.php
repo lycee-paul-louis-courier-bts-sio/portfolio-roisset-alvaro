@@ -26,7 +26,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?uc=public&action=voirVeille">
-                        <i class="bi bi-mortarboard-fill"></i> Veile
+                        <i class="bi bi-mortarboard-fill"></i> Veille
                     </a>
                 </li>
                 <li class="nav-item">
