@@ -86,7 +86,7 @@
     <body>
         <?php
         session_start();
-        include 'vues/vues_portfolio/v-nav.php';
+        include 'vues/v-nav.php';
 
         if (!isset($_REQUEST['uc'])) {
             $_REQUEST['uc'] = 'public';
@@ -98,10 +98,10 @@
                 include 'controleurs/ControleurPublic.php';
                 break;
             default:
-                include 'vues/vues_portfolio/v-accueil.php';
+                include 'vues/v-accueil.php';
                 break;
         }
-        include 'vues/vues_portfolio/v-footer.php';
+        include 'vues/v-footer.php';
         ?>
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
