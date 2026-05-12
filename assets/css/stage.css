@@ -1,9 +1,3 @@
-/* ============================================================
-   stage.css — Vue Projets & Stages
-   Thème : cohérent avec accueil (fond sombre + or/noir)
-   ============================================================ */
-
-/* --- Fond de page --- */
 .stage-page {
     background-image: url('../images/backgroundold.jpg');
     background-size: cover;
@@ -14,7 +8,7 @@
     min-height: 100vh;
 }
 
-/* Overlay sombre sur le fond pour lisibilité */
+
 .stage-page::before {
     content: '';
     position: fixed;
@@ -29,7 +23,7 @@
     z-index: 1;
 }
 
-/* --- Hero header --- */
+
 .stage-hero {
     background: linear-gradient(90deg, black, darkgoldenrod, black);
     padding: 50px 20px;
@@ -52,7 +46,7 @@
     margin: 0;
 }
 
-/* --- Séparateur de section --- */
+
 .section-block {
     margin-bottom: 20px;
 }

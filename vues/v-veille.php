@@ -2,7 +2,6 @@
 
 <div class="veille-page">
 
-  <!-- ===== HERO ===== -->
   <div class="veille-hero">
     <div class="veille-hero-inner">
       <div class="veille-hero-badge"><i class="bi bi-binoculars-fill me-2"></i>Veille Technologique</div>
@@ -13,7 +12,7 @@
 
   <div class="container py-5">
 
-    <!-- ===== QU'EST-CE QUE LA VEILLE ===== -->
+    
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
@@ -51,7 +50,7 @@
       </div>
     </section>
 
-    <!-- ===== NIVEAUX SAE ===== -->
+  
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
@@ -107,7 +106,7 @@
       </div>
     </section>
 
-    <!-- ===== ACTEURS PRINCIPAUX ===== -->
+   
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
@@ -140,7 +139,7 @@
           </div>
         </div>
 
-        <!-- Waymo -->
+
         <div class="col-md-6 col-lg-4">
           <div class="acteur-card">
             <div class="acteur-header waymo-header">
@@ -163,7 +162,6 @@
           </div>
         </div>
 
-        <!-- Autres acteurs -->
         <div class="col-md-6 col-lg-4">
           <div class="acteur-card">
             <div class="acteur-header autres-header">
@@ -187,7 +185,7 @@
       </div>
     </section>
 
-    <!-- ===== COMPARATIF TECH ===== -->
+   
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
@@ -246,7 +244,6 @@
       </div>
     </section>
 
-    <!-- ===== CHIFFRES CLÉS ===== -->
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
@@ -281,7 +278,7 @@
       </div>
     </section>
 
-    <!-- ===== ENJEUX ===== -->
+   
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
@@ -313,7 +310,7 @@
       </div>
     </section>
 
-    <!-- ===== CONCLUSION ===== -->
+   
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
