@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./assets/css/style.css">
+
 <footer class="bg-black text-white mt-5">
     <div class="container py-4">
         <div class='row'>
