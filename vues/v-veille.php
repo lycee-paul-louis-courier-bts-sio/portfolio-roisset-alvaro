@@ -29,7 +29,7 @@
           <div class="veille-info-card">
             <div class="veille-info-icon"><i class="bi bi-search"></i></div>
             <div>
-              <div class="veille-info-label">Thème de veille TESSSSSSSSSTTTTTTTTTTTTTTT</div>
+              <div class="veille-info-label">Thème de veille</div>
               <div class="veille-info-value">IA & Véhicules autonomes</div>
             </div>
           </div>
