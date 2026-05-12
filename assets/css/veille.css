@@ -1,15 +1,9 @@
-/* ============================================================
-   veille.css — Vue Ma Veille Technologique
-   Thème : sombre, tech, cohérent avec l'accueil
-   ============================================================ */
-
-/* --- Fond de page --- */
 .veille-page {
     background: linear-gradient(160deg, #050510 0%, #0a0a1a 40%, #000 100%);
     min-height: 100vh;
 }
 
-/* --- Hero --- */
+
 .veille-hero {
     background: linear-gradient(90deg, black, darkgoldenrod, black);
     padding: 55px 20px;
@@ -58,12 +52,12 @@
     margin: 0 auto;
 }
 
-/* --- Sections --- */
+
 .veille-section {
     margin-bottom: 60px;
 }
 
-/* --- Séparateur label --- */
+
 .section-label {
     display: flex;
     align-items: center;
@@ -85,7 +79,7 @@
     letter-spacing: 1px;
 }
 
-/* --- Info cards (méthode de veille) --- */
+
 .veille-info-card {
     display: flex;
     align-items: center;
@@ -115,7 +109,7 @@
     color: #fff;
 }
 
-/* --- Niveaux SAE --- */
+
 .sae-card {
     border-radius: 10px;
     padding: 16px 10px;
@@ -158,7 +152,7 @@
 .sae-5 { background: rgba(184,134,11,0.12); border: 1px solid rgba(184,134,11,0.4); color: darkgoldenrod; }
 .sae-5 .sae-number { color: darkgoldenrod; }
 
-/* --- Cards acteurs --- */
+
 .acteur-card {
     background: rgba(10,10,20,0.85);
     border: 1px solid rgba(255,255,255,0.1);
@@ -272,10 +266,10 @@
     line-height: 1.5;
 }
 
-/* --- Tableau comparatif --- */
+
 .veille-table, .veille-table th, .veille-table td {
     color: #fff !important;
-    background: transparent !important;
+    background: rgba(255,255,255,0.02) !important;
     border-color: rgba(255,255,255,0.12) !important;
 }
 
@@ -290,7 +284,7 @@
     background: rgba(255,255,255,0.03) !important;
 }
 
-/* --- KPI Cards --- */
+
 .kpi-card {
     background: linear-gradient(135deg, rgba(184,134,11,0.1), rgba(0,0,0,0.4));
     border: 1px solid rgba(184,134,11,0.3);
@@ -319,7 +313,7 @@
     line-height: 1.4;
 }
 
-/* --- Enjeux --- */
+
 .enjeu-card {
     background: rgba(255,255,255,0.03);
     border: 1px solid rgba(255,255,255,0.1);
@@ -353,7 +347,7 @@
     margin: 0;
 }
 
-/* --- Conclusion --- */
+
 .veille-conclusion {
     background: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(184,134,11,0.07), rgba(0,0,0,0.5));
     border: 1px solid rgba(184,134,11,0.25);

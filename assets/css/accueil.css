@@ -1,9 +1,9 @@
-/* --- Style général du corps de la page --- */
+
 body {
-    /* Transition du or au noir */
+    /* Pour la transition du blanc au noir */
     background-image: url('../images/backgroundold.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-color: #000;
 }
@@ -12,7 +12,7 @@ h1 {
     font-weight: bold
 }
 
-/* --- Partie dynamique --- */
+
 .dynamic-text {
     color: white;
     font-weight: bold;
@@ -20,7 +20,7 @@ h1 {
     transition: opacity 0.5s ease-in-out;
 }
 
-/* --- Section accueil (bloc de bienvenue) --- */
+
 .welcome-section {
     background: linear-gradient(90deg , black, darkgoldenrod, black);
     padding: 50px;
@@ -41,7 +41,7 @@ h1 {
     color: white;
 }
 
-/* --- Boutons personnalisés --- */
+
 .btn-primary {
     background-color: black;
     border: none;
