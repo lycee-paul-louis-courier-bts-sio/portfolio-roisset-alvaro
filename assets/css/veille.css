@@ -268,10 +268,10 @@
 
 
 .veille-table, .veille-table th, .veille-table td {
-    color: #fff !important;
+    color: #fff;
     
-    background: rgba(255,255,255,0.02) !important;
-    border-color: rgba(255,255,255,0.12) !important;
+    background: rgba(255,255,255,0.02);
+    border-color: rgba(255,255,255,0.12);
 }
 
 .veille-table thead th {

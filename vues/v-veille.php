@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./assets/css/veille.css">
+<link rel="stylesheet" href="/assets/css/veille.css">
 
 <div class="veille-page">
 
