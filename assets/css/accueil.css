@@ -1,9 +1,9 @@
-
-body {
+body:has(.veille-page) {
     background-image: url('../images/backgroundold.jpg');
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
+    background-attachment: fixed;
     background-color: #000;
 }
 h1 {
