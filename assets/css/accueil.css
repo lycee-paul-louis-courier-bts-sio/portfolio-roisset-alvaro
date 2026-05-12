@@ -1,5 +1,5 @@
 
-body {
+body:has(.veille-page) {
     /* Pour la transition du blanc au noir */
     background-image: url('../images/backgroundold.jpg');
     background-size: cover;
