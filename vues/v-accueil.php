@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="./assets/css/accueil.css">
-<main>
+<main style="margin-bottom: 480px;">
   <div class="welcome-section">
       <h1>Bienvenue sur mon Portfolio</h1>
       <h2 class="dynamic-text">

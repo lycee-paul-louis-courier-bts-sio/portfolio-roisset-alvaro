@@ -1,7 +1,6 @@
 .stage-page {
     background-image: url('../images/backgroundold.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-color: #000;
@@ -79,7 +78,7 @@
     margin: 50px 0;
 }
 
-/* --- Cards stages & projets --- */
+
 .projet-card {
     background: rgba(10, 10, 10, 0.85);
     border: 1px solid rgba(184,134,11,0.25);
@@ -98,7 +97,7 @@
     box-shadow: 0 12px 35px rgba(184,134,11,0.2);
 }
 
-/* Header de la card */
+
 .projet-card-header {
     position: relative;
     background: linear-gradient(135deg, #111, #1a1a1a);
@@ -125,7 +124,7 @@
     filter: drop-shadow(0 0 8px rgba(184,134,11,0.6));
 }
 
-/* Badge année */
+
 .badge-annee {
     position: absolute;
     top: 12px;
@@ -140,7 +139,6 @@
     letter-spacing: 0.5px;
 }
 
-/* Badge numéro projet */
 .badge-numero {
     position: absolute;
     top: 12px;
@@ -181,7 +179,7 @@
     margin-bottom: 14px;
 }
 
-/* Tags technos */
+
 .projet-tags {
     display: flex;
     flex-wrap: wrap;
@@ -224,7 +222,7 @@
     color: #000;
 }
 
-/* Bouton comparatif */
+
 .comparatif-btn {
     display: flex;
     align-items: center;
