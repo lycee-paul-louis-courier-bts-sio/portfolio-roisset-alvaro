@@ -156,7 +156,7 @@
             <div class="projet-card-header atelier-header">
               <span class="badge-numero">#03</span>
               <div class="atelier-icon">
-                <img src="./assets/images/logoEpoka.png" alt="Projet 3">
+                <img src="./assets/images/logoEPOKA.png" alt="Projet 3">
                 <i class="bi bi-globe2"></i>
               </div>
             </div>
