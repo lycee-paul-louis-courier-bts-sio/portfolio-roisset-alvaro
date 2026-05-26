@@ -34,11 +34,11 @@
             </div>
             <div class="projet-card-body">
               <h4 class="projet-card-title">Technibox</h4>
-              <p class="projet-card-desc">Mise en place d'une """"""""""""""""""""""</p>
+              <p class="projet-card-desc">Réalisation d'audit SEO du site web de technibox </p>
               <div class="projet-tags">
                 <span class="tag">WEB Analyse</span>
-                <span class="tag">TEST</span>
-                <span class="tag">TEST</span>
+                <span class="tag">html</span>
+           
               </div>
             </div>
             <div class="projet-card-footer">
@@ -61,12 +61,11 @@
             </div>
             <div class="projet-card-body">
               <h4 class="projet-card-title">CHU St Amand</h4>
-              <p class="projet-card-desc">Évaluation des risques IT. Scraping web, correction de bugs Java, scripts Python, ElasticSearch.</p>
+              <p class="projet-card-desc">Réalisations d'assistance technique et mise en production d'une application</p>
               <div class="projet-tags">
                 <span class="tag">AD / GLPI</span>
                 <span class="tag">Bash</span>
-                <span class="tag">TEST</span>
-                <span class="tag">TEST</span>
+                
               </div>
             </div>
             <div class="projet-card-footer">
