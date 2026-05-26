@@ -6,7 +6,7 @@
           <span id="dynamic"></span>
       </h2>
       <p>Découvrez mes projets, mes compétences et mes expériences en BTS SIO SLAM.</p>
-      <a href="index.php?uc=public" class="btn btn-primary mt-3">
+      <a href="index.php?uc=public&action=voirStage" class="btn btn-primary mt-3">
           Voir mes projets
       </a>
   </div>
