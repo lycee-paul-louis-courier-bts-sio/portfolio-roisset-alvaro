@@ -42,7 +42,7 @@
               </div>
             </div>
             <div class="projet-card-footer">
-              <a href="index.php?uc=stage1" class="btn-gold-outline">
+              <a href="index.php?uc=public&action=voirStage1" class="btn-gold-outline">
                 <i class="bi bi-arrow-right-circle me-1"></i> Voir le détail
               </a>
             </div>
@@ -69,7 +69,7 @@
               </div>
             </div>
             <div class="projet-card-footer">
-              <a href="index.php?uc=stage2" class="btn-gold-outline">
+              <a href="index.php?uc=public&action=voirStage2" class="btn-gold-outline">
                 <i class="bi bi-arrow-right-circle me-1"></i> Voir le détail
               </a>
             </div>

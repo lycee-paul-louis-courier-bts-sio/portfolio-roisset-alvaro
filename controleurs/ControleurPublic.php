@@ -26,6 +26,12 @@ switch ($action) {
     case 'voirStage':
         include 'vues/v-stage.php';
         break;
+    case 'voirStage1':
+        include 'vues/v-stage1.php';
+        break;
+    case 'voirStage2':
+        include 'vues/v-stage2.php';
+        break;
     default:
         include 'vues/v-accueil.php';
         break;
