@@ -2,7 +2,7 @@
 
 <div class="stage-page">
 
-  <!-- ===== HERO HEADER ===== -->
+  
   <div class="stage-hero">
     <div class="stage-hero-inner">
       <h1 class="stage-hero-title"><i class="bi bi-briefcase-fill me-3"></i>Projets & Stages</h1>
@@ -12,7 +12,7 @@
 
   <div class="container py-5">
 
-    <!-- ===== SECTION STAGES ===== -->
+    
     <div class="section-block">
       <div class="section-label">
         <span class="label-line"></span>
@@ -22,7 +22,7 @@
 
       <div class="row g-4 justify-content-center mt-3">
 
-        <!-- Stage 1 : Technibox -->
+        
         <div class="col-md-5 col-sm-10">
           <div class="projet-card">
             <div class="projet-card-header">
@@ -49,7 +49,7 @@
           </div>
         </div>
 
-        <!-- Stage 2 : CHU St AMAND -->
+        
         <div class="col-md-5 col-sm-10">
           <div class="projet-card">
             <div class="projet-card-header">
@@ -79,7 +79,7 @@
 
       </div>
 
-      <!-- Comparatif -->
+     
       <div class="row justify-content-center mt-3">
         <div class="col-md-4 col-sm-8">
           <a href="index.php?uc=comparatifstage" class="comparatif-btn">
@@ -90,10 +90,10 @@
       </div>
     </div>
 
-    <!-- ===== SÉPARATEUR ===== -->
+    
     <div class="section-divider"></div>
 
-    <!-- ===== SECTION PROJETS ATELIER ===== -->
+    
     <div class="section-block">
       <div class="section-label">
         <span class="label-line"></span>
@@ -104,13 +104,13 @@
 
       <div class="row g-4 justify-content-center mt-1">
 
-        <!-- Projet 1 -->
+       
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
               <span class="badge-numero">#01</span>
               <div class="atelier-icon">
-                <!-- Remplace par ton image : <img src="./assets/images/projet1.png" alt="Projet 1"> -->
+                <img src="./assets/images/logoStartDev.png" alt="Projet 1">
                 <i class="bi bi-laptop-fill"></i>
               </div>
             </div>
@@ -127,13 +127,13 @@
           </div>
         </div>
 
-        <!-- Projet 2 -->
+        
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
               <span class="badge-numero">#02</span>
               <div class="atelier-icon">
-                <!-- Remplace par ton image : <img src="./assets/img/projet2.png" alt="Projet 2"> -->
+                <img src="./assets/images/logoMilleNuits.png" alt="Projet 2">
                 <i class="bi bi-phone-fill"></i>
               </div>
             </div>
@@ -150,13 +150,13 @@
           </div>
         </div>
 
-        <!-- Projet 3 -->
+     
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
               <span class="badge-numero">#03</span>
               <div class="atelier-icon">
-                <!-- Remplace par ton image : <img src="./assets/img/projet3.png" alt="Projet 3"> -->
+                <img src="./assets/images/logoEpoka.png" alt="Projet 3">
                 <i class="bi bi-globe2"></i>
               </div>
             </div>
