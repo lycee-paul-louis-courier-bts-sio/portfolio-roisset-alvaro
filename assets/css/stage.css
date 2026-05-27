@@ -245,3 +245,11 @@
     border-color: darkgoldenrod;
     color: #fff;
 }
+
+footer {
+    color: #fff !important;
+}
+
+footer * {
+    color: inherit !important;
+}

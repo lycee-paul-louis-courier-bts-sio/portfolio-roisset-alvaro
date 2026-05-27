@@ -5,7 +5,7 @@
   
   <div class="stage-hero">
     <div class="stage-hero-inner">
-      <h1 class="stage-hero-title"><i class="bi bi-briefcase-fill me-3"></i>Projets & Stages</h1>
+      <h1 class="stage-hero-title"></i>Projets & Stages</h1>
       <p class="stage-hero-sub">Mes expériences professionnelles et réalisations durant mon BTS SIO SLAM</p>
     </div>
   </div>
@@ -16,7 +16,7 @@
     <div class="section-block">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-buildings-fill me-2"></i>Stages en entreprise</span>
+        <span class="label-text"></i>Stages en entreprise</span>
         <span class="label-line"></span>
       </div>
 
@@ -29,7 +29,7 @@
               <span class="badge-annee">1ère année</span>
               <div class="projet-card-logo">
                 <img src="./assets/images/logotechnibox.png" alt="Logo Technibox">
-                <i class="bi bi-cpu-fill" style="font-size:3rem; color:darkgoldenrod;"></i>
+                
               </div>
             </div>
             <div class="projet-card-body">
@@ -56,7 +56,7 @@
               <span class="badge-annee">2ème année</span>
               <div class="projet-card-logo">
                 <img src="./assets/images/logoCHUStAmand.png" alt="Logo CHU">
-                <i class="bi bi-shield-check" style="font-size:3rem; color:darkgoldenrod;"></i>
+                
               </div>
             </div>
             <div class="projet-card-body">
@@ -96,7 +96,7 @@
     <div class="section-block">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-code-slash me-2"></i>Projets d'atelier professionnel</span>
+        <span class="label-text">Projets d'atelier professionnel</span>
         <span class="label-line"></span>
       </div>
       <p class="text-center text-white-50 mt-2 mb-4">Réalisations effectuées dans le cadre de ma formation BTS SIO SLAM</p>
@@ -107,10 +107,10 @@
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
-              <span class="badge-numero">#01</span>
+             
               <div class="atelier-icon">
                 <img src="./assets/images/logoStartDev.png" alt="Projet 1">
-                <i class="bi bi-laptop-fill"></i>
+                
               </div>
             </div>
             <div class="projet-card-body">
@@ -130,10 +130,10 @@
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
-              <span class="badge-numero">#02</span>
+              
               <div class="atelier-icon">
                 <img src="./assets/images/logoMilleNuits.png" alt="Projet 2">
-                <i class="bi bi-phone-fill"></i>
+                
               </div>
             </div>
             <div class="projet-card-body">
@@ -153,10 +153,10 @@
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
-              <span class="badge-numero">#03</span>
+             
               <div class="atelier-icon">
                 <img src="./assets/images/logoEPOKA.png" alt="Projet 3">
-                <i class="bi bi-globe2"></i>
+               
               </div>
             </div>
             <div class="projet-card-body">

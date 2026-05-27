@@ -1,10 +1,4 @@
-body {
-    background-image: url('../images/backgroundold.jpg');
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    background-color: #000000;
-}
+
 h1 {
     font-size: 48px;
     font-weight: bold
@@ -67,6 +61,7 @@ h1 {
 
 .veille-section {
     margin-bottom: 60px;
+    color: rgba(255,255,255,0.65);
 }
 
 

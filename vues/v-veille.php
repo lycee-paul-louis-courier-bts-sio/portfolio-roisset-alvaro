@@ -4,7 +4,7 @@
 
   <div class="veille-hero">
     <div class="veille-hero-inner">
-      <div class="veille-hero-badge"><i class="bi bi-binoculars-fill me-2"></i>Veille Technologique</div>
+    
       <h1 class="veille-hero-title">L'Intelligence Artificielle<br>au Volant</h1>
       <p class="veille-hero-sub">Comment l'IA révolutionne les véhicules autonomes — Tesla, Waymo et les acteurs de demain</p>
     </div>
@@ -16,7 +16,7 @@
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-info-circle-fill me-2"></i>Ma démarche de veille</span>
+        <span class="label-text">Ma démarche de veille</span>
         <span class="label-line"></span>
       </div>
       <div class="row align-items-center mt-4 g-4">
@@ -26,21 +26,21 @@
         </div>
         <div class="col-md-4">
           <div class="veille-info-card">
-            <div class="veille-info-icon"><i class="bi bi-search"></i></div>
+            <div class="veille-info-icon"></div>
             <div>
               <div class="veille-info-label">Thème de veille</div>
               <div class="veille-info-value">IA & Véhicules autonomes</div>
             </div>
           </div>
           <div class="veille-info-card mt-3">
-            <div class="veille-info-icon"><i class="bi bi-calendar3"></i></div>
+            <div class="veille-info-icon"></div>
             <div>
               <div class="veille-info-label">Période</div>
               <div class="veille-info-value">2024 – 2026</div>
             </div>
           </div>
           <div class="veille-info-card mt-3">
-            <div class="veille-info-icon"><i class="bi bi-bookmark-fill"></i></div>
+            <div class="veille-info-icon"></div>
             <div>
               <div class="veille-info-label">Sources principales</div>
               <div class="veille-info-value">The Verge, Electrek, Reuters, Waymo Blog</div>
@@ -54,7 +54,7 @@
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-bar-chart-steps me-2"></i>Les niveaux d'autonomie SAE</span>
+        <span class="label-text">Les niveaux d'autonomie SAE</span>
         <span class="label-line"></span>
       </div>
       <p class="text-center text-white-50 mt-3 mb-4">La classification SAE (Society of Automotive Engineers) définit 6 niveaux d'autonomie, du niveau 0 (aucune automatisation) au niveau 5 (autonomie totale).</p>
@@ -64,42 +64,42 @@
           <div class="sae-card sae-0">
             <div class="sae-number">0</div>
             <div class="sae-label">Aucune<br>automatisation</div>
-            <div class="sae-driver"><i class="bi bi-person-fill"></i> Conducteur seul</div>
+            <div class="sae-driver">Conducteur seul</div>
           </div>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6">
           <div class="sae-card sae-1">
             <div class="sae-number">1</div>
             <div class="sae-label">Assistance<br>au conducteur</div>
-            <div class="sae-driver"><i class="bi bi-person-fill"></i> Régulateur, freinage</div>
+            <div class="sae-driver">Régulateur, freinage</div>
           </div>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6">
           <div class="sae-card sae-2">
             <div class="sae-number">2</div>
             <div class="sae-label">Automatisation<br>partielle</div>
-            <div class="sae-driver"><i class="bi bi-eye-fill"></i> Tesla Autopilot / FSD</div>
+            <div class="sae-driver"> Tesla Autopilot / FSD</div>
           </div>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6">
           <div class="sae-card sae-3">
             <div class="sae-number">3</div>
             <div class="sae-label">Automatisation<br>conditionnelle</div>
-            <div class="sae-driver"><i class="bi bi-car-front-fill"></i> Mercedes Drive Pilot</div>
+            <div class="sae-driver"> Mercedes Drive Pilot</div>
           </div>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6">
           <div class="sae-card sae-4">
             <div class="sae-number">4</div>
             <div class="sae-label">Haute<br>automatisation</div>
-            <div class="sae-driver"><i class="bi bi-robot"></i> Waymo One</div>
+            <div class="sae-driver"> Waymo One</div>
           </div>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6">
           <div class="sae-card sae-5">
             <div class="sae-number">5</div>
             <div class="sae-label">Autonomie<br>totale</div>
-            <div class="sae-driver"><i class="bi bi-stars"></i> Pas encore atteint</div>
+            <div class="sae-driver">Pas encore atteint</div>
           </div>
         </div>
 
@@ -110,7 +110,7 @@
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-buildings-fill me-2"></i>Les acteurs clés</span>
+        <span class="label-text">Les acteurs clés</span>
         <span class="label-line"></span>
       </div>
 
@@ -120,9 +120,9 @@
         <div class="col-md-6 col-lg-4">
           <div class="acteur-card">
             <div class="acteur-header tesla-header">
-              <!-- Remplace par : <img src="./assets/img/tesla.png" alt="Tesla"> -->
+              <img src="./assets/images/tesla.png" alt="Tesla">
               <div class="acteur-logo-placeholder">
-                <i class="bi bi-lightning-charge-fill" style="font-size:2.5rem;color:#CC0000;"></i>
+               
                 <span style="font-size:1.4rem;font-weight:900;color:#fff;letter-spacing:2px;">TESLA</span>
               </div>
               <span class="acteur-niveau niveau-2">Niveau 2+</span>
@@ -143,9 +143,9 @@
         <div class="col-md-6 col-lg-4">
           <div class="acteur-card">
             <div class="acteur-header waymo-header">
-              <!-- Remplace par : <img src="./assets/img/waymo.png" alt="Waymo"> -->
+              <img src="./assets/images/waymo.jpg" alt="Waymo">
               <div class="acteur-logo-placeholder">
-                <i class="bi bi-geo-alt-fill" style="font-size:2.5rem;color:#5F5FFF;"></i>
+                
                 <span style="font-size:1.4rem;font-weight:900;color:#fff;letter-spacing:2px;">WAYMO</span>
               </div>
               <span class="acteur-niveau niveau-4">Niveau 4</span>
@@ -173,10 +173,10 @@
             <div class="acteur-body">
               <h5 class="acteur-title">Un écosystème mondial</h5>
               <ul class="acteur-list">
-                <li><i class="bi bi-dot text-warning"></i> <strong>Zoox (Amazon)</strong> — robotaxi sans volant ni pédales, testé à Las Vegas</li>
-                <li><i class="bi bi-dot text-warning"></i> <strong>Baidu Apollo</strong> — leader chinois, des centaines de milliers de courses à Wuhan, Pékin</li>
-                <li><i class="bi bi-dot text-warning"></i> <strong>Mercedes Drive Pilot</strong> — premier Niveau 3 commercialisé en Europe</li>
-                <li><i class="bi bi-dot text-warning"></i> <strong>OpenAI</strong> — annonce une technologie de conduite autonome "révolutionnaire" (2025)</li>
+                <li><strong>Zoox (Amazon)</strong> : robotaxi sans volant ni pédales, testé à Las Vegas</li>
+                <li><strong>Baidu Apollo</strong> : leader chinois, des centaines de milliers de courses à Wuhan, Pékin</li>
+                <li><strong>Mercedes Drive Pilot</strong> ; premier Niveau 3 commercialisé en Europe</li>
+                <li><strong>OpenAI</strong> : annonce une technologie de conduite autonome "révolutionnaire" (2025)</li>
               </ul>
             </div>
           </div>
@@ -189,7 +189,7 @@
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-table me-2"></i>Comparatif technologique</span>
+        <span class="label-text">Comparatif technologique</span>
         <span class="label-line"></span>
       </div>
       <div class="table-responsive mt-4">
@@ -197,9 +197,9 @@
           <thead>
             <tr>
               <th>Critère</th>
-              <th><i class="bi bi-lightning-charge-fill text-danger me-1"></i> Tesla (FSD)</th>
-              <th><i class="bi bi-geo-alt-fill" style="color:#5F5FFF;"></i> Waymo</th>
-              <th><i class="bi bi-cpu-fill text-warning me-1"></i> Mercedes Lvl 3</th>
+              <th> Tesla (FSD)</th>
+              <th> Waymo</th>
+              <th> Mercedes Lvl 3</th>
             </tr>
           </thead>
           <tbody>
@@ -247,7 +247,7 @@
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-graph-up-arrow me-2"></i>Chiffres clés du secteur</span>
+        <span class="label-text">Chiffres clés du secteur</span>
         <span class="label-line"></span>
       </div>
       <div class="row g-4 mt-2 justify-content-center">
@@ -282,27 +282,27 @@
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-exclamation-triangle-fill me-2"></i>Enjeux & Défis</span>
+        <span class="label-text">Enjeux & Défis</span>
         <span class="label-line"></span>
       </div>
       <div class="row g-4 mt-2">
         <div class="col-md-4">
           <div class="enjeu-card">
-            <div class="enjeu-icon text-warning"><i class="bi bi-shield-exclamation"></i></div>
+            
             <h5>Sécurité</h5>
             <p>La NHTSA (agence routière US) a ouvert plusieurs enquêtes sur le système FSD de Tesla, notamment en cas de conditions météo dégradées (brouillard, pluie). La redondance des capteurs est un enjeu central.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="enjeu-card">
-            <div class="enjeu-icon text-info"><i class="bi bi-file-earmark-text"></i></div>
+            
             <h5>Réglementation</h5>
             <p>Le cadre légal est encore fragmenté. Chaque État américain fixe ses propres règles, et l'Europe progresse prudemment avec des exigences de certification plus strictes que les États-Unis.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="enjeu-card">
-            <div class="enjeu-icon" style="color:var(--gold);"><i class="bi bi-database-lock"></i></div>
+            
             <h5>Données & Vie privée</h5>
             <p>La collecte massive de données de conduite (vidéos, GPS, comportements) est indispensable pour entraîner les IA, mais soulève des questions sur la vie privée et la souveraineté des données.</p>
           </div>
@@ -314,7 +314,7 @@
     <section class="veille-section">
       <div class="section-label">
         <span class="label-line"></span>
-        <span class="label-text"><i class="bi bi-flag-fill me-2"></i>Conclusion</span>
+        <span class="label-text">Conclusion</span>
         <span class="label-line"></span>
       </div>
       <div class="veille-conclusion mt-4">
