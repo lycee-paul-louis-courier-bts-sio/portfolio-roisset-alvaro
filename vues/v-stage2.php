@@ -34,9 +34,9 @@
 
     <div class="stage-actions">
         <a href="assets/fichiers/rapport_chu.pdf" download class="btn-gold">
-             Télécharger le rapport de stage
+            Télécharger le rapport de stage
         </a>
-        <a href="index.php?uc=public&action=voirStage" class="btn-outline">← Retour aux stages</a>
+        <a href="index.php?uc=public&action=voirStage" class="btn-outline">Retour aux stages</a>
     </div>
 
 </div>
