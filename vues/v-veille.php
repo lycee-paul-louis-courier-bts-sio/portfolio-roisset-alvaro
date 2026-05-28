@@ -21,6 +21,7 @@
       </div>
       <div class="row align-items-center mt-4 g-4">
         <div class="col-md-8">
+          <p>J'ai choisi ce sujet car les IA sont en pleine expansion dans plusieurs domaines et l'automobile est également l'une de mes passions impactée.</p>
           <p>La <strong>veille technologique</strong> est un processus continu qui consiste à surveiller les évolutions d'un domaine technologique afin d'anticiper les tendances, identifier les opportunités et rester compétitif. J'ai choisi de concentrer ma veille sur un sujet qui me passionne : <strong>l'intelligence artificielle appliquée aux véhicules autonomes</strong>.</p>
           <p>Pour cette veille, j'utilise différentes sources : Feedly, newsletters spécialisées (The Verge, Electrek), flux RSS, alertes Google, publications d'analystes et comptes Twitter/X des acteurs du secteur.</p>
         </div>
@@ -36,7 +37,7 @@
             <div class="veille-info-icon"></div>
             <div>
               <div class="veille-info-label">Période</div>
-              <div class="veille-info-value">2024 – 2026</div>
+              <div class="veille-info-value">2025 – 2026</div>
             </div>
           </div>
           <div class="veille-info-card mt-3">
@@ -130,11 +131,7 @@
             <div class="acteur-body">
               <h5 class="acteur-title">Approche « Vision-First »</h5>
               <p class="acteur-desc">Tesla mise uniquement sur des caméras couplées à des réseaux neuronaux, sans LiDAR. Son système FSD (Full Self-Driving) s'améliore par mises à jour OTA grâce aux données de conduite de millions de véhicules (plus de 5,6 milliards de km parcourus).</p>
-              <div class="acteur-stats">
-                <div class="stat"><span class="stat-val">5,6 Mrd km</span><span class="stat-label">de données</span></div>
-                <div class="stat"><span class="stat-val">FSD v14</span><span class="stat-label">dernière version</span></div>
-                <div class="stat"><span class="stat-val">Cybercab</span><span class="stat-label">robotaxi 2026</span></div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -153,11 +150,7 @@
             <div class="acteur-body">
               <h5 class="acteur-title">Approche Multi-Capteurs</h5>
               <p class="acteur-desc">Filiale d'Alphabet (Google), Waymo combine LiDAR, radar et caméras pour une redondance maximale. Ses robotaxis circulent déjà dans plusieurs villes américaines (San Francisco, Phoenix, Austin) avec 500 000 courses par semaine en 2026.</p>
-              <div class="acteur-stats">
-                <div class="stat"><span class="stat-val">500K</span><span class="stat-label">courses/semaine</span></div>
-                <div class="stat"><span class="stat-val">126 Mrd $</span><span class="stat-label">valorisation</span></div>
-                <div class="stat"><span class="stat-val">10 villes</span><span class="stat-label">couvertes US</span></div>
-              </div>
+              
             </div>
           </div>
         </div>
