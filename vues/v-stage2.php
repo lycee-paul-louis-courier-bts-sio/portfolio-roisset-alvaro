@@ -10,6 +10,14 @@
             <p class="stage-periode">5 janvier – 26 février 2026 · Saint-Amand-Montrond</p>
         </div>
     </div>
+    <div class="stage-section">
+        <h2>Contexte</h2>
+        <p>
+            Durant mon stage de deuxième année, j'ai eu l'opportunité de travailler au sein du CHU Saint-Amand, 
+            un établissement hospitalier. Mon objectif principal était de participer à l'assistance technique 
+            et au support des utilisateurs, tout en contribuant à la mise en production d'une application métier.
+        </p>
+    </div>
 
     <div class="stage-section">
         <h2>Missions effectuées</h2>
@@ -33,11 +41,18 @@
     </div>
 
     <div class="stage-section">
-        <h2>Réalisations</h2>
+        <h2>Compétences</h2>
         <ul>
-            <li>Assistance technique et support utilisateurs</li>
-            <li>Mise en production d'une application métier</li>
+            <p>Compétences mises en oeuvres</p>
+
+            <li>Gérer le patrimoine informatique</li>
+            <li>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
+            <!-- <li>Développer la présence en ligne de l'organisation</li> -->
+            <li>Travailler en mode projet</li>
+            <li>Mettre à disposition des utilisateurs un service informatique</li>
+            <li>Organiser son développement professionnel</li>
         </ul>
+            
     </div>
 
     <div class="stage-actions">
