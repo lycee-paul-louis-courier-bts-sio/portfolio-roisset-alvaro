@@ -2,7 +2,7 @@
 
 <div class="stage-page">
 
-  
+
   <div class="stage-hero">
     <div class="stage-hero-inner">
       <h1 class="stage-hero-title"></i>Projets & Stages</h1>
@@ -12,7 +12,7 @@
 
   <div class="container py-5">
 
-    
+
     <div class="section-block">
       <div class="section-label">
         <span class="label-line"></span>
@@ -22,14 +22,14 @@
 
       <div class="row g-4 justify-content-center mt-3">
 
-        
+
         <div class="col-md-5 col-sm-10">
           <div class="projet-card">
             <div class="projet-card-header">
               <span class="badge-annee">1ère année</span>
               <div class="projet-card-logo">
                 <img src="./assets/images/logotechnibox.png" alt="Logo Technibox">
-                
+
               </div>
             </div>
             <div class="projet-card-body">
@@ -38,7 +38,7 @@
               <div class="projet-tags">
                 <span class="tag">WEB Analyse</span>
                 <span class="tag">html</span>
-           
+
               </div>
             </div>
             <div class="projet-card-footer">
@@ -49,23 +49,24 @@
           </div>
         </div>
 
-        
+
         <div class="col-md-5 col-sm-10">
           <div class="projet-card">
             <div class="projet-card-header">
               <span class="badge-annee">2ème année</span>
               <div class="projet-card-logo">
                 <img src="./assets/images/logoCHUStAmand.png" alt="Logo CHU">
-                
+
               </div>
             </div>
             <div class="projet-card-body">
               <h4 class="projet-card-title">CHU St Amand</h4>
-              <p class="projet-card-desc">Réalisations d'assistance technique et mise en production d'une application</p>
+              <p class="projet-card-desc">Réalisations d'assistance technique et mise en production d'une application
+              </p>
               <div class="projet-tags">
                 <span class="tag">AD / GLPI</span>
                 <span class="tag">Bash</span>
-                
+
               </div>
             </div>
             <div class="projet-card-footer">
@@ -78,45 +79,45 @@
 
       </div>
 
-     
+
       <div class="row justify-content-center mt-3">
         <div class="col-md-4 col-sm-8">
-          <a href="index.php?uc=comparatifstage" class="comparatif-btn">
-            <i class="bi bi-table me-2"></i>Voir le comparatif des deux entreprises
-            <i class="bi bi-arrow-right ms-2"></i>
+          <a href="assets/fichiers/comparatif-stages.pdf" target="_blank" class="comparatif-btn">
+             Voir le comparatif des deux entreprises
           </a>
         </div>
       </div>
     </div>
 
-    
+
     <div class="section-divider"></div>
 
-    
+
     <div class="section-block">
       <div class="section-label">
         <span class="label-line"></span>
         <span class="label-text">Projets d'atelier professionnel</span>
         <span class="label-line"></span>
       </div>
-      <p class="text-center text-white-50 mt-2 mb-4">Réalisations effectuées dans le cadre de ma formation BTS SIO SLAM</p>
+      <p class="text-center text-white-50 mt-2 mb-4">Réalisations effectuées dans le cadre de ma formation BTS SIO SLAM
+      </p>
 
       <div class="row g-4 justify-content-center mt-1">
 
-       
+
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
-             
+
               <div class="atelier-icon">
                 <img src="./assets/images/logoStartDev.png" alt="Projet 1">
-                
+
               </div>
             </div>
             <div class="projet-card-body">
               <h4 class="projet-card-title">StartDev</h4>
               <p class="projet-card-desc">Projet de première année</p>
-              
+
             </div>
             <div class="projet-card-footer">
               <a href="#" class="btn-gold-outline">
@@ -126,20 +127,20 @@
           </div>
         </div>
 
-        
+
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
-              
+
               <div class="atelier-icon">
                 <img src="./assets/images/logoMilleNuits.png" alt="Projet 2">
-                
+
               </div>
             </div>
             <div class="projet-card-body">
               <h4 class="projet-card-title">Mille nuits</h4>
               <p class="projet-card-desc">Projet de première année</p>
-             
+
             </div>
             <div class="projet-card-footer">
               <a href="#" class="btn-gold-outline">
@@ -149,20 +150,20 @@
           </div>
         </div>
 
-     
+
         <div class="col-lg-4 col-md-6 col-sm-10">
           <div class="projet-card atelier">
             <div class="projet-card-header atelier-header">
-             
+
               <div class="atelier-icon">
                 <img src="./assets/images/logoEPOKA.png" alt="Projet 3">
-               
+
               </div>
             </div>
             <div class="projet-card-body">
               <h4 class="projet-card-title">Epoka</h4>
               <p class="projet-card-desc">Projet de deuxième année</p>
-              
+
             </div>
             <div class="projet-card-footer">
               <a href="#" class="btn-gold-outline">
