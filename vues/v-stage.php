@@ -120,9 +120,10 @@
 
             </div>
             <div class="projet-card-footer">
-              <a href="#" class="btn-gold-outline">
+              <a href="index.php?uc=public&action=voirProjet1" class="btn-gold-outline">
                 <i class="bi bi-folder2-open me-1"></i> Voir le projet
               </a>
+              
             </div>
           </div>
         </div>
