@@ -12,12 +12,14 @@
     </div>
     <div class="stage-section">
         <h2>Contexte</h2>
-            <p>
-                Durant mon stage de première année, j'ai eu l'opportunité de travailler au sein de Technibox, 
-                une TPE spécialisée dans la création de moules en plastique. Mon objectif principal était de réaliser un audit 
-                SEO complet du site web de l'entreprise afin d'identifier les points forts et les axes d'amélioration pour optimiser sa visibilité 
-                sur les moteurs de recherche.
-            </p>
+        <p>
+            Durant mon stage de première année, j'ai eu l'opportunité de travailler au sein de Technibox,
+            une TPE spécialisée dans la création de moules en plastique. Mon objectif principal était de réaliser un
+            audit
+            SEO complet du site web de l'entreprise afin d'identifier les points forts et les axes d'amélioration pour
+            optimiser sa visibilité
+            sur les moteurs de recherche.
+        </p>
     </div>
 
     <div class="stage-section">
@@ -32,9 +34,17 @@
 
     <div class="stage-section">
         <h2>Photos du stage</h2>
-        <div class="stage-photos">
-            <div class="photo-placeholder"><img src="assets/images/technibox2img.png" alt="SEO"> </div>
-            <div class="photo-placeholder"><img src="assets/images/technibox1img.png" alt="Site"> </div>
+        <div class="stage-photos" id="gallery">
+            <div class="photo-placeholder" data-index="0"><img src="assets/images/technibox2img.png" > </div>
+            <div class="photo-placeholder" data-index="1"><img src="assets/images/technibox1img.png" > </div>
+
+        </div>
+    </div>
+    <div class="lb-overlay" id="lightbox">
+        <div class="lb-box">
+            <div class="lb-close" id="lb-close">&#x2715;</div>
+            <img id="lb-img" src="" alt="">
+            <p class="lb-caption" id="lb-caption"></p>
             
         </div>
     </div>
@@ -43,23 +53,23 @@
         <ul>
             <p>Compétences mises en oeuvres</p>
 
-            
+
             <li>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
             <li>Développer la présence en ligne de l'organisation</li>
-            
+
             <li>Mettre à disposition des utilisateurs un service informatique</li>
             <li>Organiser son développement professionnel</li>
         </ul>
-            
+
     </div>
 
     <div class="stage-actions">
         <a href="assets/fichiers/rapport_technibox.pdf" download class="btn-gold">
-         Télécharger le rapport de stage
+            Télécharger le rapport de stage
         </a>
         <a href="index.php?uc=public&action=voirStage" class="btn-outline">Retour aux stages</a>
     </div>
 
 </div>
 
-
+<script src="assets/images.js"></script>

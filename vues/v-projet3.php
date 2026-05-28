@@ -39,17 +39,17 @@
         <h2>Photos du projet Epoka - gestion des revues</h2>
         
         <div class="stage-photos">
-            <div class="photo-placeholder"><img src="assets/images/accueil_epoka.png" alt="accueil"> </div> 
-            <div class="photo-placeholder"><img src="assets/images/BDD_epoka.png" alt="bdd"> </div>
-            <div class="photo-placeholder"><img src="assets/images/ajout_vente_epoka.png" alt="vente"> </div>
+            <div class="photo-placeholder"><img src="assets/images/accueil_epoka.png" > </div> 
+            <div class="photo-placeholder"><img src="assets/images/BDD_epoka.png" > </div>
+            <div class="photo-placeholder"><img src="assets/images/ajout_vente_epoka.png" > </div>
         </div>
     </div>
 
     <div class="stage-section">
         <h2>Photos du projet Epoka - gestion des abonnements</h2>
         <div class="stage-photos">
-            <div class="photo-placeholder"><img src="assets/images/liste_abos_epoka.png" alt="abonnements"> </div> 
-            <div class="photo-placeholder"><img src="assets/images/competences_epoka.png" alt="competences"> </div>
+            <div class="photo-placeholder"><img src="assets/images/liste_abos_epoka.png" > </div> 
+            <div class="photo-placeholder"><img src="assets/images/competences_epoka.png" > </div>
            
         </div>
     </div>
@@ -72,7 +72,14 @@
     <div class="stage-actions">
         <a href="index.php?uc=public&action=voirStage" class="btn-outline">Retour aux projets</a>
     </div>
+    <div class="lb-overlay" id="lightbox">
+        <div class="lb-box">
+            <div class="lb-close" id="lb-close">&#x2715;</div>
+            <img id="lb-img" src="" alt="">
+            <p class="lb-caption" id="lb-caption"></p>
+        </div>
+    </div>
 
 </div>
 
-
+<script src="assets/images.js"></script>

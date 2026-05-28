@@ -151,5 +151,24 @@
     border-color: rgba(255,255,255,0.5);
     color: #fff;
 }
+.photo-placeholder { cursor: pointer; transition: opacity 0.15s; }
+.photo-placeholder:hover { opacity: 0.85; }
+
+.lb-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.75); z-index: 1000;
+  align-items: center; justify-content: center;
+}
+.lb-overlay.open { display: flex; }
+.lb-box {
+  background: #fff; border-radius: 8px;
+  padding: 12px; max-width: 90%; position: relative;
+}
+.lb-box img { display: block; max-width: 100%; max-height: 80vh; }
+.lb-caption { text-align: center; margin-top: 8px; color: #666; font-size: 13px; }
+.lb-close {
+  position: absolute; top: 8px; right: 10px;
+  cursor: pointer; font-size: 20px; color: #666;
+}
 
 

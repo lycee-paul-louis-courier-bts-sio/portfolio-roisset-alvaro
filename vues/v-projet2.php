@@ -29,9 +29,9 @@
     <div class="stage-section">
         <h2>Photos du projet Millenuits</h2>
         <div class="stage-photos">
-            <div class="photo-placeholder"><img src="assets/images/accueil_millenuits.png" alt="accueil"> </div>
-            <div class="photo-placeholder"><img src="assets/images/bdd_millenuits.png" alt="bdd"> </div>
-            <div class="photo-placeholder"><img src="assets/images/competences_millenuits.png" alt="skills"> </div>
+            <div class="photo-placeholder"><img src="assets/images/accueil_millenuits.png" > </div>
+            <div class="photo-placeholder"><img src="assets/images/bdd_millenuits.png"> </div>
+            <div class="photo-placeholder"><img src="assets/images/competences_millenuits.png" > </div>
         </div>
     </div>
     <div class="stage-section">
@@ -56,7 +56,15 @@
         </a>
         <a href="index.php?uc=public&action=voirStage" class="btn-outline">Retour aux projets</a>
     </div>
+    <div class="lb-overlay" id="lightbox">
+        <div class="lb-box">
+            <div class="lb-close" id="lb-close">&#x2715;</div>
+            <img id="lb-img" src="" alt="">
+            <p class="lb-caption" id="lb-caption"></p>
+        </div>
+    </div>
 
 </div>
 
 
+<script src="assets/images.js"></script>

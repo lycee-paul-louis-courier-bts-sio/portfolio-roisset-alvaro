@@ -34,8 +34,8 @@
     <div class="stage-section">
         <h2>Photos du stage</h2>
         <div class="stage-photos">
-            <div class="photo-placeholder"><img src="assets/images/Vm.png" alt="photo 1"></div>
-            <div class="photo-placeholder"><img src="assets/images/passbolt.png" alt="photo 2"></div>
+            <div class="photo-placeholder"><img src="assets/images/Vm.png" ></div>
+            <div class="photo-placeholder"><img src="assets/images/passbolt.png" ></div>
             
         </div>
     </div>
@@ -61,8 +61,16 @@
         </a>
         <a href="index.php?uc=public&action=voirStage" class="btn-outline">Retour aux stages</a>
     </div>
+    <div class="lb-overlay" id="lightbox">
+        <div class="lb-box">
+            <div class="lb-close" id="lb-close">&#x2715;</div>
+            <img id="lb-img" src="" alt="">
+            <p class="lb-caption" id="lb-caption"></p>
+        </div>
+    </div>
     
 
 </div>
 
 
+<script src="assets/images.js"></script>

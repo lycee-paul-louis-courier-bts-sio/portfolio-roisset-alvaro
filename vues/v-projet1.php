@@ -12,9 +12,10 @@
     </div>
     <div class="stage-section">
         <h2>Contexte</h2>
-            <p>
-                Durant le premier semestre de ma première année, j'ai eu l'opportunité de travailler sur la refonte d'un site web fictif pour une auto-école.
-            </p>
+        <p>
+            Durant le premier semestre de ma première année, j'ai eu l'opportunité de travailler sur la refonte d'un
+            site web fictif pour une auto-école.
+        </p>
     </div>
 
     <div class="stage-section">
@@ -28,9 +29,9 @@
     <div class="stage-section">
         <h2>Photos du projet StartDev</h2>
         <div class="stage-photos">
-            <div class="photo-placeholder"><img src="assets/images/wordpress_plugins_startdev.png" alt="plugin"> </div>
-            <div class="photo-placeholder"><img src="assets/images/wordpress_setup_startdev.png" alt="setup"> </div>
-            <div class="photo-placeholder"><img src="assets/images/competences_startdev.png" alt="skills"> </div>
+            <div class="photo-placeholder"><img src="assets/images/wordpress_plugins_startdev.png" > </div>
+            <div class="photo-placeholder"><img src="assets/images/wordpress_setup_startdev.png"> </div>
+            <div class="photo-placeholder"><img src="assets/images/competences_startdev.png" > </div>
         </div>
     </div>
     <div class="stage-section">
@@ -38,27 +39,35 @@
         <ul>
             <p>Compétences mises en oeuvres</p>
 
-            
+
             <li>Gérer le patrimoine informatique</li>
             <li>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
-             <!--  <li>Développer la présence en ligne de l'organisation</li>-->
+            <!--  <li>Développer la présence en ligne de l'organisation</li>-->
             <li>Travailler en mode projet</li>
-           <li>Mettre à disposition des utilisateurs un service informatique</li> 
+            <li>Mettre à disposition des utilisateurs un service informatique</li>
             <li>Organiser son développement professionnel</li>
         </ul>
-            
+
     </div>
 
     <div class="stage-actions">
         <a href="assets/fichiers/doc_cms_startdev.pdf" download class="btn-gold">
-         Télécharger le comparatif de CMS
+            Télécharger le comparatif de CMS
         </a>
         <a href="assets/fichiers/doc_wordpress_startdev.pdf" download class="btn-gold">
-         Télécharger la documentation d'installation de WordPress
+            Télécharger la documentation d'installation de WordPress
         </a>
         <a href="index.php?uc=public&action=voirStage" class="btn-outline">Retour aux projets</a>
+    </div>
+    <div class="lb-overlay" id="lightbox">
+        <div class="lb-box">
+            <div class="lb-close" id="lb-close">&#x2715;</div>
+            <img id="lb-img" src="" alt="">
+            <p class="lb-caption" id="lb-caption"></p>
+        </div>
     </div>
 
 </div>
 
 
+<script src="assets/images.js"></script>
