@@ -78,7 +78,16 @@
         </div>
 
       </div>
-
+      <br>
+      <div class="section-block">
+      <div class="section-label">
+        <span class="label-line"></span>
+        <span class="label-text">Gestion du patrimoine</span>
+        <span class="label-line"></span>
+      </div>
+      <p class="text-center text-white-50 mt-2 mb-4">La gestion du patrimoine est l'ensemble des stratégies et actions visant à constituer, développer, protéger et transmettre les actifs d'une personne ou d'une famille. Elle englobe la gestion des placements financiers (actions, obligations, fonds), de l'immobilier, de l'épargne, de la fiscalité et de la prévoyance, 
+        dans le but d'optimiser la valeur nette du patrimoine sur le long terme selon le profil de risque et les objectifs de chaque individu.
+      </p>
 
       <div class="row justify-content-center mt-3">
         <div class="col-md-4 col-sm-8">
@@ -176,6 +185,6 @@
 
       </div>
     </div>
-
+    
   </div>
 </div>
