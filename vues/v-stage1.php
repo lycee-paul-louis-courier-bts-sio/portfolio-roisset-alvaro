@@ -7,7 +7,7 @@
         <div>
             <h1>Technibox</h1>
             <span class="badge-annee">1ère année</span>
-            <p class="stage-periode">Janvier – Février 2024 · Bourges</p>
+            <p class="stage-periode">19 mai – 25 juin 2025 · Bourges</p>
         </div>
     </div>
 
@@ -24,9 +24,9 @@
     <div class="stage-section">
         <h2>Photos du stage</h2>
         <div class="stage-photos">
-            <div class="photo-placeholder">Photo 1</div>
-            <div class="photo-placeholder">Photo 2</div>
-            <!-- Remplacer par : <img src="assets/images/technibox-1.jpg" alt="..."> -->
+            <div class="photo-placeholder"><img src="assets/images/technibox2img.png" alt="SEO"> </div>
+            <div class="photo-placeholder"><img src="assets/images/technibox1img.png" alt="Site"> </div>
+            <
         </div>
     </div>
 

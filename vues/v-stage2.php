@@ -7,7 +7,7 @@
         <div>
             <h1>CHU Saint-Amand</h1>
             <span class="badge-annee">2ème année</span>
-            <p class="stage-periode">Janvier – Février 2026 · Saint-Amand-Montrond</p>
+            <p class="stage-periode">5 janvier – 26 février 2026 · Saint-Amand-Montrond</p>
         </div>
     </div>
 
@@ -26,10 +26,18 @@
     <div class="stage-section">
         <h2>Photos du stage</h2>
         <div class="stage-photos">
-            <div class="photo-placeholder">Photo 1</div>
-            <div class="photo-placeholder">Photo 2</div>
-            <!-- Remplacer par : <img src="assets/images/chu-1.jpg" alt="..."> -->
+            <div class="photo-placeholder"><img src="assets/images/Vm.png" alt="photo 1"></div>
+            <div class="photo-placeholder"><img src="assets/images/passbolt.png" alt="photo 2"></div>
+            
         </div>
+    </div>
+
+    <div class="stage-section">
+        <h2>Réalisations</h2>
+        <ul>
+            <li>Assistance technique et support utilisateurs</li>
+            <li>Mise en production d'une application métier</li>
+        </ul>
     </div>
 
     <div class="stage-actions">
@@ -38,6 +46,7 @@
         </a>
         <a href="index.php?uc=public&action=voirStage" class="btn-outline">Retour aux stages</a>
     </div>
+    
 
 </div>
 

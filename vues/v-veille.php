@@ -22,7 +22,7 @@
       <div class="row align-items-center mt-4 g-4">
         <div class="col-md-8">
           <p>La <strong>veille technologique</strong> est un processus continu qui consiste à surveiller les évolutions d'un domaine technologique afin d'anticiper les tendances, identifier les opportunités et rester compétitif. J'ai choisi de concentrer ma veille sur un sujet qui me passionne : <strong>l'intelligence artificielle appliquée aux véhicules autonomes</strong>.</p>
-          <p>Pour cette veille, j'utilise différentes sources : newsletters spécialisées (The Verge, Electrek), flux RSS, alertes Google, publications d'analystes et comptes Twitter/X des acteurs du secteur.</p>
+          <p>Pour cette veille, j'utilise différentes sources : Feedly, newsletters spécialisées (The Verge, Electrek), flux RSS, alertes Google, publications d'analystes et comptes Twitter/X des acteurs du secteur.</p>
         </div>
         <div class="col-md-4">
           <div class="veille-info-card">
@@ -43,7 +43,7 @@
             <div class="veille-info-icon"></div>
             <div>
               <div class="veille-info-label">Sources principales</div>
-              <div class="veille-info-value">The Verge, Electrek, Reuters, Waymo Blog</div>
+              <div class="veille-info-value">Feedly, The Verge, Electrek, Reuters, Waymo Blog</div>
             </div>
           </div>
         </div>
